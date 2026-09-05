@@ -15,9 +15,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
+        origin: [
       "http://localhost:5173",
-      "https://dalms-defence-asset-logistics-manag.vercel.app",
+      "https://dalms-defence-asset-logistics-management-system-c2358vfnw.vercel.app",
+      "https://dalms-defence-asset-logistics-manag-opal.vercel.app",
     ],
     credentials: true,
   })
