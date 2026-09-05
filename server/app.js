@@ -15,12 +15,16 @@ const app = express();
 
 app.use(
   cors({
-        origin: [
-  "http://localhost:5173",
-  "https://dalms.vercel.app",
-  "https://dalms-defence-asset-logistics-management-system-c2358vfnw.vercel.app",
-  "https://dalms-defence-asset-logistics-manag-opal.vercel.app",
-],
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      if (
+        origin === "http://localhost:5173" ||
+        /\.vercel\.app$/.test(origin)
+      ) {
+        return callback(null, true);
+      }
+      return callback(new Error("Not allowed by CORS"));
+    },
     credentials: true,
   })
 );
