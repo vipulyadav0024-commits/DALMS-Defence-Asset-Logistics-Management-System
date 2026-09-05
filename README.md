@@ -8,8 +8,7 @@ DALMS provides a centralized dashboard with management modules, searchable recor
 
 ## 🚀 Live Demo
 
-**Live Application:** https://dalms-defence-asset-logistics-manag.vercel.app/
-
+**Live Application:** https://dalms-vipul-89bf.vercel.app/
 ### 🔑 Demo Access
 
 Use the following demo account to explore the deployed application:
@@ -251,9 +250,8 @@ DALMS uses a separated cloud deployment architecture.
 
 ### Production URLs
 
-* **Frontend:** https://dalms-defence-asset-logistics-manag.vercel.app/
-* **Backend API:** https://dalms-defence-asset-logistics-management.onrender.com
-
+* **Frontend:** https://dalms-vipul-89bf.vercel.app/
+* **Backend API:** https://dalms-backend.onrender.com
 ### Deployment Technologies
 
 * **Vercel** — Frontend hosting
@@ -406,7 +404,7 @@ DALMS-Defence-Asset-Logistics-Management-System/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/swejalgupta2005/DALMS-Defence-Asset-Logistics-Management-System.git
+git clone https://github.com/vipulyadav0024-commits/DALMS-Defence-Asset-Logistics-Management-System.git
 ```
 
 ```bash
@@ -658,17 +656,14 @@ It is **not an official application of DRDO, the Indian Army, or any Government 
 
 ---
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
-**Swejal Gupta**
+**Vipul Yadav**
 
-B.Tech — Computer Science & Engineering (Data Science)
-
-GitHub: https://github.com/swejalgupta2005
+GitHub: https://github.com/vipulyadav0024-commits
 
 ---
 
 ## ⭐ If You Find This Project Useful
 
 Consider giving the repository a ⭐ on GitHub.
-
